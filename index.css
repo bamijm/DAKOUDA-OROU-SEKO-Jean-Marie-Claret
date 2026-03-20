@@ -1,4 +1,3 @@
-
 header {
   text-align: center;
   position: fixed;   
@@ -56,7 +55,6 @@ h1 {
   transition: 0.3s ease;
 }
 
-
 .hamburger.active span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
@@ -86,6 +84,7 @@ ul li {
 ul li:hover {
   transform: scale(1.05);
 }
+
 #email, #contact {
   width: 100%;
   max-width: 400px;
@@ -163,7 +162,7 @@ footer {
 }
 #backtop {
   display: block;
-  margin: 40px auto;
+  margin: 40px auto; 
   padding: 10px 40px;
   box-shadow: #333 2px 2px 8px;
   font-size: 18px;
@@ -222,7 +221,7 @@ footer {
   }
 
   .menu.active {
-    left: 0; /* slide-in */
+    left: 0; 
   }
 
   #btncv {
