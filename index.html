@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header> 
+        <nav>
+        <h2 id="name">DAKOUDA OROU SEKO Bamidélé Adébola Jean-Marie Claret</h2>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu">  
+        <a href="#home">Accueil</a> 
+        <a href="#aboutme">A propos de moi</a>
+        <a href="#skills">Mes Compétences</a>
+        <a href="#myprojects">Projets</a>
+        <a href="#contactme">Contact</a>
+        </div>
+        </nav>
+        <button id="darkmode" onclick="dark()">🌙 Mode sombre / ☀️ Mode clair</button>
+    </header>
+    
+    <main>
+        <section id="home">
+        <h1 id="welcome" ></h1>
+        </section>
+        
+        <section id="aboutme">
+            <h1>A PROPOS DE MOI</h1>
+            <p id="about"> Agé de 18 ans depuis Octobre 2025, je suis titulaire d'un BACCALAUREAT série C avec la mention Bien.
+                Passionnée par l'Analyse de Données, la Technologie et l'Intelligence Artificielle je poursuis mes Etudes Universitaires en
+                Statistique Appliquée à l'Ecole Nationale de Statistique, de Planification et de Démographie (ENSPD) de l'Université de Parakou 
+                où j'acquiets des notions sur mes passions grâce aux Activités Scolaires et Parascolaires.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h1>MES COMPETENCES</h1>
+            <ul>
+                <li>Connaissance du Web et d'Internet</li>
+                <li>Maîtrise du Balisage HTML</li>
+                <li>Maîtrise Partielle de CSS</li>
+                <li>Maîtrise Partielle de JavaScript</li>
+                <li>Formulaires et Objets HTML JS</li>
+                <li>Débutant en Développement Web</li>
+                <li>Maîtrise Partielle de Python</li>
+                <li>Maîtise Partielle de C</li>
+            </ul>
+        </section>
+
+        <section id="myprojects">
+            <h1>Mes PROJETS</h1>
+            <ul>
+                <li>Analyse de Données avec R</li>
+                <li>Analyse de Données avec SPSS</li>
+                <li>Analyse de Données avec STATA</li>
+                <li>Analyse de Données avec Python</li>
+                <li>Développement Web</li>
+                <li>Marchine Learning</li>
+            </ul>
+        </section>
+
+        <section id="contactme">
+            <h1> ME CONTACTER</h1>
+            <p id="contact-info">Vous pouvez me joindre via les canaux suivants :</p>
+            <img src="C:\Bureau\PORTFOLIO\télécharger.webp" alt="aaaa" width="30px">
+            <a id="mail" href="mailto:claretdakoudaorsk23@gmail.com">claretdakoudaorsk23@gmail.com</a>
+            <br>
+            <img src="C:\Bureau\PORTFOLIO\th.webp" alt="tydju" width="30px">
+            <a id="tel" href="tel:+2290150545492">+2290150545492</a>
+
+            <form name="form" action="" method="post" autocomplete="on">
+                <br><input type="email" name="email" id="email" placeholder="Entrez votre E-mail" size="50">
+                <br><br><textarea name="contact" id="contact" placeholder="Laissez-moi un commentaire" cols="52" rows="5"></textarea>
+                <br><input type="submit" onclick="sendmsg()" id="btn" value="Envoyer" size="50">
+            </form>
+            <br><a href="docs/cv.pdf" download id="btncv">Télécharger mon CV</a>
+        </section>
+    </main>
+    <footer>
+        ©2025-DAKOUDA OROU SEKO Bamidélé Adébola Jean-Marie Claret
+        <br><button type="button" id="backtop">Retour en haut</button>
+    </footer>
+<script src="index.js"></script>
+</body>
+</html>
